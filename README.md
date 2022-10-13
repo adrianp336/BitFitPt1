@@ -1,8 +1,8 @@
-# Android Project 6 - BitFit
+# Android Project 5 - BitFit
 
 Submitted by: Adrian Perez
 
-BitFit is a health metrics app that allows users to track ... [TODO] 
+**Name of your app** is a health metrics app that allows users to track their calories
 
 Time spent: 7 hours spent in total
 
@@ -10,27 +10,31 @@ Time spent: 7 hours spent in total
 
 The following **required** functionality is completed:
 
-- [X] **Use at least 2 Fragments**
-- [X] **Create a new dashboard fragment where users can see a summary of their entered data**
-- [X] **Use one of the Navigation UI Views (BottomNavigation, Drawer Layout, Top Bar) to move between the fragments**
-
+- [X] **At least one health metric is tracked (based on user input)**
+  - Chosen metric(s): `Calories`
+- [X] **There is a "create entry" UI that prompts users to make their daily entry**
+- [X] **New entries are saved in a database and then updated in the RecyclerView**
+- [X] **On application restart, previously entered entries are preserved (i.e., are *persistent*)**
+ 
 The following **optional** features are implemented:
 
-- [ ] **Add a more advanced UI (e.g: Graphing) for tracking trends in metrics**
-- [ ] **Implement daily notifications to prompt users to fill in their data**
+- [ ] **Create a UI for tracking averages and trends in metrics**
+- [ ] **Improve and customize the user interface through styling and coloring**
+- [ ] **Implement orientation responsivity**
+- [ ] **Add a daily photo feature**
 
 The following **additional** features are implemented:
 
-- [X] Added a "Clear" button to delete data stored.
+- [X] Added Log and Dashboard Fragments to the app that calculates the minimum, maximum, and average calories!
 
 ## Video Walkthrough
 
 Here's a walkthrough of implemented user stories:
 
-<img src='https://github.com/adrianp336/BitFit/blob/master/walkthrough.gif' />
+<img src='https://github.com/adrianp336/BitFitPt1/blob/master/walkthrough.gif' width='' alt='Video Walkthrough' />
 
 <!-- Replace this with whatever GIF tool you used! -->
-GIF created with ...  
+GIF created with ScreenToGif
 <!-- Recommended tools:
 [Kap](https://getkap.co/) for macOS
 [ScreenToGif](https://www.screentogif.com/) for Windows
