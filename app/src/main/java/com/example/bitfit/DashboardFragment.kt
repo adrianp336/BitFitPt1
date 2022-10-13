@@ -75,9 +75,10 @@ class DashboardFragment : Fragment(), OnListFragmentInteractionListener {
             }
         }
 
+        var avg : Double = sum / foods.size
 
 
-        averageTextView.text = (sum / foods.size).toString()
+        averageTextView.text = String.format("%.2f", avg)
         minTextView.text = min.toString()
         maxTextView.text = max.toString()
 
